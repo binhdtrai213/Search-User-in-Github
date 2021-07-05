@@ -4,7 +4,7 @@
 }
 .form_search{
     display: grid;
-    grid-template-columns: 25% 67% 10%;
+    grid-template-columns: 25% 65% 10%;
     justify-content: flex-start;
     background: rgba(128, 128, 128, 0.438);
     padding: 1rem;
@@ -48,7 +48,7 @@ a{
     font-size: 20px;
 }
 .changeMode{
-    width: 80%;
+    width: 100%;
     font-size: 15px;
     background: black;
     color: white;
