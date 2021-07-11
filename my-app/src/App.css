@@ -1,12 +1,16 @@
 *{
     text-align: center;
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background: #DEEDF0;
 }
 .form_search{
     display: grid;
-    grid-template-columns: 25% 65% 10%;
+    grid-template-columns: 20% 70% 10%;
     justify-content: flex-start;
-    background: rgba(128, 128, 128, 0.438);
+    background: #96BAFF;
     padding: 1rem;
 }
 input{
@@ -16,6 +20,7 @@ input{
     border-radius: 5px;
     border: none;
     margin-right: 1rem;
+    padding: 0 0.5rem;
 }
 button{
     width: 100px;
@@ -23,17 +28,18 @@ button{
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
-    border: 3px solid black;
     cursor: pointer;
-    background: linear-gradient(to left top , pink, orange);
+    background: #ECEFA4;
+    border: none;
 }
 button:hover{
-    box-shadow: 0 0 10px 4px white;
+    box-shadow: 0 0 5px 4px white;
+    transition: ease 100ms;
 }
 img{
-    margin-top: 1rem;
     height: 370px;
     border-radius: 10px;
+    margin: 1.5rem;
 }
 .form_information{
     font-size: 15px;
@@ -50,30 +56,34 @@ a{
 .changeMode{
     width: 100%;
     font-size: 15px;
-    background: black;
-    color: white;
-    border: 3px solid white;
+    background: White;
+    color: Black;
 }
 .changeMode:hover{
-    box-shadow: 0 0 10px 4px white;
+    background: Black;
+    color: white;
 }
 a:hover{
-    color: Blue;
+    color: #185ADB;
 }
-#White{
+#Black{
     width: 100vw;
     height: 100vh;
-    background: rgb(0, 0, 0, 0.9);
+    background: #343A40;
     color: White;
 }
-#White a{
+#Black a{
     color: White;
 }
-#White a:hover{
-    color: blue;
+#Black a:hover{
+    color: #185ADB;
 }
-#White .changeMode{
-    background: white;
-    color: black;
-    border: 3px solid black;
+#Black .changeMode{
+    background: Black;
+    color: white;
+    border: none;
+}
+#Black .changeMode:hover{
+    background: White;
+    color: Black;
 }

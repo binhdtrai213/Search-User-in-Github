@@ -59,7 +59,7 @@ function App() {
 		}
 	}
 	const changeMode = () => {
-		if(mode === "Black") 
+		if(mode === 'Black') 
 		{
 			setMode('White')
 			localStorage.setItem('mode', 'White')
